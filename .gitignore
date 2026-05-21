@@ -1,0 +1,76 @@
+# ====================================================================
+# Global / OS ignores
+# ====================================================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================================================================
+# IDEs and Editors
+# ====================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.factorypath
+.settings/
+
+# ====================================================================
+# ESP32-C3 firmware ignores (PlatformIO / Arduino / Build binaries)
+# ====================================================================
+/ESP32-C3/.pio/
+/ESP32-C3/.clang_complete
+/ESP32-C3/build/
+/ESP32-C3/bin/
+*.elf
+*.bin
+*.hex
+
+# ====================================================================
+# Backend ignores (Spring Boot / Maven Java)
+# ====================================================================
+/server/backend/target/
+/server/backend/*.log
+/server/backend/EMQX.rar
+/server/backend/temp/
+/server/backend/.recommenders/
+/server/backend/out/
+
+# ====================================================================
+# Frontend ignores (Vite / Vue / Node.js)
+# ====================================================================
+/server/fronend/node_modules/
+/server/fronend/dist/
+/server/fronend/dist-ssr/
+/server/fronend/*.local
+/server/fronend/.env.local
+/server/fronend/.env.*.local
+/server/fronend/npm-debug.log*
+/server/fronend/yarn-debug.log*
+/server/fronend/yarn-error.log*
+/server/fronend/pnpm-debug.log*
+/server/fronend/lerna-debug.log*
+
+# ====================================================================
+# Other binary and archive files
+# ====================================================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.db
+*.sqlite
