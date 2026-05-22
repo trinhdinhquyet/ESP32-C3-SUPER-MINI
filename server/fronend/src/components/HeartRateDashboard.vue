@@ -163,7 +163,7 @@
     <footer class="glass-footer">
       <div class="footer-item">
         <span class="footer-label">Hệ thống:</span>
-        <span class="footer-val">Đầu cuối ESP32-C3 & MAX30102</span>
+        <span class="footer-val">Thu thập dữ liệu nhịp tim</span>
       </div>
       <div class="footer-item">
         <span class="footer-label">Cơ sở dữ liệu:</span>
